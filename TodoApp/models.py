@@ -1,4 +1,4 @@
-from TodoApp.app.database import Base
+from TodoApp.database import Base
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 
 

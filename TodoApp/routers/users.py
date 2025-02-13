@@ -3,8 +3,8 @@ from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, HTTPException
 from starlette import status
-from TodoApp.app.models import Users
-from TodoApp.app.database import SessionLocal
+from TodoApp.models import Users
+from TodoApp.database import SessionLocal
 from .auth import get_current_user
 from passlib.context import CryptContext
 
