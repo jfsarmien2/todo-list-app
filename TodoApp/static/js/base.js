@@ -26,6 +26,7 @@
                 });
 
                 if (response.ok) {
+                    alert("Todo saved successfully!");
                     form.reset(); // Clear the form
                 } else {
                     // Handle error
