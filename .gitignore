@@ -21,7 +21,7 @@ ENV/
 # Logs and databases
 *.log
 *.sqlite3
-*.db
+#*.db
 
 # FastAPI server files
 #*.db
